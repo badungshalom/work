@@ -1,0 +1,95 @@
+
+body{
+    background-image: url(./images/image6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+/* style the nav   */
+ nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    /* overflow: hidden; */
+    text-align: center;
+    
+}
+/* style the link in the nav  */
+nav a {
+    float:right;
+    color:rgb(146, 53, 17);
+    padding: 11px 16px;
+    font-size: 17px;
+}
+/* change the color of the links on :hover */
+nav a:hover {
+    background-color: darkgoldenrod;
+    color:rgb(76, 9, 184);
+}
+/* add color to active/current link */
+nav a.active {
+    background-color: #04AA6D;
+    color:beige;
+}
+a {
+    text-decoration: none;
+    
+}
+
+/* adding color and other things texts  */
+.phase-one{
+    text-align: center;
+    color: antiquewhite;
+    /* background-color:white; */
+    font-weight: 1000%;
+    border: 1 solid white;
+    border-radius: 100px;
+    width: px;
+    
+}
+.phase-two{
+    text-align: center;
+    background-color: greenyellow;
+    border: 40px solid greenyellow;
+    border-radius: 100px;
+    width: 700px;
+    margin: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 300px;
+
+}
+.hub{
+    text-align: center;
+    background-color:orange;
+    border:40px solid orange;
+    border-radius: 100px;
+    width: 700px;
+    margin: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 300px;
+
+}
+.demo{
+    text-align: center;
+    background-color: tomato;
+    border: 40px solid tomato;
+    border-radius: 100px;
+    width: 700px;
+    margin: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 300px;
+
+} 
+ /* .whole{  */
+    /* background-image: linear-gradient(rgba(20, 18, 18), rgba(20, 18, 18)) url(./images/image5.jpg) */
+    
+/* }    */

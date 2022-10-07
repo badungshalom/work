@@ -1,0 +1,286 @@
+/* navigation */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    padding: 1vw 8vw;
+    position: sticky;
+    width: 84%;
+    background-color: rgb(201, 185, 121);
+}
+
+nav img {
+    width: 50px;
+    border-radius: 5%;
+}
+
+nav .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .navigation ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav .navigation ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500px;
+
+}
+
+nav .navigation ul li a:hover {
+    color: blue;
+}
+
+/* home */
+#Home {
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(./images/education3.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}
+
+/* Aboutus */
+.About {
+    width: 100%;
+    padding: 78px 0px;
+    background-color: rgb(7, 7, 24);
+}
+
+.About img {
+    height: auto;
+    width: 500px;
+}
+
+.abouttext {
+    width: 550px;
+    margin-left: 100px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.abouttext h1 {
+    color: aliceblue;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.abouttext h3 {
+    color: aliceblue;
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.abouttext p {
+    color: aliceblue;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button {
+    background: rgb(26, 60, 153);
+    color: rgba(0, 0, 0, 0.938);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: large;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: rgb(242, 242, 247);
+    color: white;
+}
+
+/* servies */
+.services {
+    width: 100%;
+    height: 100vh;
+    padding: 50px 0px;
+    
+
+}
+
+.title {
+    color: rgb(5, 17, 27);
+    font-size: 45px;
+    width: 1130px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 25px;
+    background: rgb(22, 9, 53);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: bisque;
+}
+
+h5 {
+    color: rgb(172, 172, 47);
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: rgb(212, 190, 156);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background: palevioletred;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: large;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+.end{background-color: rgb(53, 54, 128);
+    background-image: linear-gradient();
+    display: flex;
+    gap: 50PX;
+    font-size: x-large;
+
+}
+.footer , img{
+    width: 50px;
+    display: block;
+    
+
+}
+
+
+ .border ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500px;
+}
+
+
+.subjects{
+    background-image: url(./images/image6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+.sbject a{
+    text-decoration: none;
+}
+
+
+
+
+/* adding color and other things texts  */
+.phase-one{
+    text-align: center;
+    color: antiquewhite;
+    /* background-color:white; */
+    font-weight: 1000%;
+    border: 1 solid white;
+    border-radius: 100px;
+    width: px;
+    font-size: xx-large;
+    
+}
+.phase-two{
+    text-align: center;
+    background-color: greenyellow;
+    border: 40px solid greenyellow;
+    border-radius: 100px;
+    width: 700px;
+    margin: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 300px;
+
+}
+.hub{
+    text-align: center;
+    background-color:orange;
+    border:40px solid orange;
+    border-radius: 100px;
+    width: 700px;
+    margin: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 300px;
+
+}
+.demo{
+    text-align: center;
+    background-color: tomato;
+    border: 40px solid tomato;
+    border-radius: 100px;
+    width: 700px;
+    margin: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 300px;
+
+} 
+a{
+  text-decoration: none;
+}
+ /* .whole{  */
+    /* background-image: linear-gradient(rgba(20, 18, 18), rgba(20, 18, 18)) url(./images/image5.jpg) */
+    
+/* }    */
+
